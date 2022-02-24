@@ -1,0 +1,13 @@
+{
+  "message": "england",
+  "publicInstance": "Public instance",
+  "what": "What it is ?",
+  "whatText": "Providing you with a full overwiew of your institution's electronic resources usage.",
+  "who": "Who we are",
+  "whoText": "ezTEAM inist CNRS blablabla",
+  "demoButton": "Play with a demo",
+  "demoText1": "No account needed: access a space with two dashboards: one containing dumy and anonymized ezpaarse finely grained usage data, the other containing COUNTER5 master reports",
+  "demoText2": "1 year of data to see what it looks like and how you can navigate that data to understand how journals, database and other types of content is being accessed by reasearches, students and teachers in an HER institution",
+  "signInButton": "Create new account",
+  "signInText": "You think that ReadMetrics could be a useful tool for your usage data usecases and you want to create your own space to start uploading real-wold data (based on log data and/or COUNTER 5 reports) and assemble dashboards. We'll help you get up and running !"
+}
