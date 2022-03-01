@@ -2,8 +2,10 @@
   <div>
     <nav>
       <div class="nav-wrapper">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a class="btn waves-effect waves-light red"> <i class="material-icons right">send</i>Loggin </a></li>
+        <ul id="nav-mobile" class="right">
+          <li>
+            <Lang />
+          </li>
         </ul>
       </div>
     </nav>
@@ -23,20 +25,7 @@
     <div class="container">
       <div class="section">
         <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center">
-                <i class="medium material-icons icon-red">live_help</i>
-              </h2>
-              <h5 class="center">{{ $t("what") }}</h5>
-
-              <p class="light">
-                {{ $t("whatText") }}
-              </p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
+          <div class="col s12 m6">
             <div class="icon-block">
               <h2 class="center">
                 <a class="btn-floating btn-large waves-effect waves-light red"
@@ -54,7 +43,7 @@
             </div>
           </div>
 
-          <div class="col s12 m4">
+          <div class="col s12 m6">
             <div class="icon-block">
               <h2 class="center">
                 <a class="btn-floating btn-large waves-effect waves-light red"
@@ -73,6 +62,25 @@
 
       <br />
       <br />
+
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="icon-block">
+                <h2 class="center">
+                  <i class="medium material-icons icon-red">live_help</i>
+                </h2>
+                <h5 class="center">{{ $t("what") }}</h5>
+
+                <p class="light">
+                  {{ $t("whatText") }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="container">
         <div class="section">
@@ -139,11 +147,15 @@
 
 <script>
 import M from "materialize-css";
+import Lang from "@/components/Lang.vue";
 
 export default {
   name: "App",
   mounted() {
     M.AutoInit();
+  },
+  components: {
+    Lang,
   },
 };
 </script>
