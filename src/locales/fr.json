@@ -1,13 +1,16 @@
 {
-  "message": "england",
+  "subtitle": "Un packet avec",
   "publicInstance": "Instance publique",
   "what": "Qu'est ce que c'est ?",
   "whatText": "C'est un logiciel qui fournit un aperçu complet de l'utilisation des ressources électroniques de votre institution.",
   "who": "Qui sommes nous ?",
-  "whoText": "ezTEAM inist CNRS blablabla",
+  "whoText": "Ce projet a été créé par l'ezTEAM et est opéré à l'INIST-CNRS.",
   "demoButton": "Essayer avec une demo",
-  "demoText1": "Pas besoin de compte : accédez à un espace avec deux tableaux de bord : l'un contenant des données d'utilisation d'exemple et anonymisées ezpaarse, l'autre contenant les rapports COUNTER5",
+  "demoText1": "Pas besoin de compte : accédez à un espace avec deux tableaux de bord : l'un contenant des données d'utilisation d'exemple et anonymisées ezpaarse, l'autre contenant les rapports COUNTER5.",
   "demoText2": "1 an de données pour voir à quoi cela ressemble et comment vous pouvez naviguer dans ces données pour comprendre comment les revues, les bases de données et d'autres types de contenu sont consultés par les chercheurs, les étudiants et les enseignants d'une institution.",
-  "signInButton": "Créer un nouveau compte",
-  "signInText": "Vous pensez que ReadMetrics pourrait être un outil utile pour vos cas d'utilisation de données et vous voulez créer votre propre espace pour commencer à charger des données réelles (basées sur des données de log et/ou des rapports COUNTER 5) et assembler des tableaux de bord. Nous vous aiderons à être opérationnel !"
+  "signUpButton": "Créer un nouveau compte",
+  "signUpText": "Vous avez déjà un compte ? connectez-vous.",
+  "signInButton": "Connexion",
+  "signInText": "Vous pensez que ReadMetrics pourrait être un outil utile pour vos cas d'utilisation de données et vous voulez créer votre propre espace pour commencer à charger des données réelles (basées sur des données de log et/ou des rapports COUNTER 5) et assembler des tableaux de bord. Nous vous aiderons à être opérationnel !",
+  "communication": "Communication"
 }

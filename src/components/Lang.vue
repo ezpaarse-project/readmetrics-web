@@ -9,13 +9,18 @@
       :value="lang"
       @click="updateLang(lang)"
     >
-      <a>{{ lang }}</a>
+      <div class="valign-wrapper">
+        <img
+          :src="require(`@/images/${lang}.png`)"
+          style="width: 24px; height: 24px; margin-right: 10px;  margin-left: 10px"
+        />
+        <p>{{ lang }}</p>
+      </div>
     </li>
   </ul>
 </template>
 
 <script>
-
 export default {
   name: "lang-item",
   data() {
@@ -24,7 +29,7 @@ export default {
   methods: {
     updateLang(lang) {
       this.$i18n.locale = lang;
-    }
-  }
+    },
+  },
 };
 </script>
