@@ -6,11 +6,14 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/readmetrics-web/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - readmetric-web-nuxt',
-    title: 'readmetric-web-nuxt',
+    titleTemplate: '%s - readmetrics-web',
+    title: 'readmetrics-web',
     htmlAttrs: {
       lang: 'en'
     },
