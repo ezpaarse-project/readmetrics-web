@@ -14,4 +14,4 @@ services:
     volumes:
       - .:/src
     restart: unless-stopped
-    command: "npm run serve"
+    command: "npm run dev"
